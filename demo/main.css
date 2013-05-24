@@ -1,0 +1,51 @@
+html, body { 
+    height: 100%; 
+}
+
+.prereq-graph {
+    width: 960px;
+    margin: auto;
+}
+
+path.arc {
+  fill: #fff;
+}
+
+.node {
+  font-size: 12px;
+  font-family: Verdana;
+}
+
+.node:hover {
+  fill: #1f77b4;
+  cursor: default; /* Chrome workaround */
+}
+
+.link {
+  fill: none;
+  stroke: #1f77b4;
+  stroke-opacity: .4;
+  pointer-events: none;
+}
+
+.link.source, .link.target {
+  stroke-opacity: 1;
+  stroke-width: 2px;
+}
+
+.node.target {
+  fill: #d62728 !important;
+}
+
+.link.source {
+  stroke: #d62728;
+}
+
+.node.source {
+  fill: #2ca02c;
+    font-weight: 200;
+}
+
+.link.target {
+  stroke: #2ca02c;
+}
