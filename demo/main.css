@@ -19,22 +19,25 @@ path.arc {
 .node:hover {
   fill: #1f77b4;
   cursor: default; /* Chrome workaround */
+  font-weight: 700;
 }
 
 .link {
   fill: none;
   stroke: #1f77b4;
+  stroke-width: 2px;
   stroke-opacity: .4;
   pointer-events: none;
 }
 
 .link.source, .link.target {
   stroke-opacity: 1;
-  stroke-width: 2px;
+  stroke-width: 3px;
 }
 
 .node.target {
   fill: #d62728 !important;
+  font-weight: 700;
 }
 
 .link.source {
@@ -43,7 +46,7 @@ path.arc {
 
 .node.source {
   fill: #2ca02c;
-    font-weight: 200;
+  font-weight: 700;
 }
 
 .link.target {

@@ -9,7 +9,7 @@ var m0;
 var bundle = d3.layout.bundle();
 
 var cluster = d3.layout.cluster()
-    .size([360, rx - 240])
+    .size([360, rx - 320])
     .sort(function(a, b) { return d3.ascending(a.key, b.key); });
 
 var line = d3.svg.line.radial()
